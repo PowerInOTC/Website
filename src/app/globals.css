@@ -1,0 +1,274 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.equal-height .slick-track {
+  display: flex;
+}
+.equal-height .slick-slide {
+  height: auto;
+}
+.equal-height .slick-slide > div {
+  height: 100%;
+}
+
+.slick-arrow {
+  width: 30px;
+  height: 30px;
+  background: #EBCB88;
+  color: #000;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+  background: #EBCB88;
+  color: #000;
+}
+.slider-arrow .slick-arrow {
+  top: -53px;
+}
+.slider-arrow .slick-arrow:before {
+  display: none;
+}
+.slick-arrow.slick-disabled {
+  background: #CCCCCC;
+  pointer-events: none;
+  opacity: 0.8;
+}
+.slider-dots .slick-dots li button::before {
+  display: none;
+}
+.slider-dots .slick-dots li {
+  width: auto;
+  height: auto;
+}
+.slider-dots .slick-dots li button {
+  padding: 0;
+  width: 8px;
+  height: 8px;
+  background: #EBCB88;
+  border-radius: 8px;
+  transition: all 0.4s;
+}
+.slider-dots .slick-dots li.slick-active button {
+  width: 30px;
+  
+}
+
+.slider-dots .slick-dots {
+  position: static;
+}
+
+.hover-btn svg {
+  transition: all 0.4s;
+  left: 0;
+  position: relative;  
+}
+.hover-btn:hover svg {
+  left: 4px;
+}
+/* Hero Slider */
+@keyframes progress {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: 100%;
+  }
+}
+.hero-slider-wrapper .slick-dots {
+  bottom: 25px;
+}
+.slick-thumb {
+  display: flex;
+  justify-content: center;
+  bottom: 25px;
+}
+.slick-thumb li {
+  width: calc(100% / 6);
+  height: auto;
+  list-style: none;
+  padding: 0 10px;
+  margin: 0;
+}
+.slick-thumb li button {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  white-space: normal;
+  position: relative;
+}
+.slick-thumb li button:before {
+  display: none;
+}
+.slick-thumb li button .progress-wrap {
+  background-color: rgba(153, 153, 153, 0.35);
+  position: relative;
+}
+.slick-thumb li.slick-active button .progress-wrap:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  display: block;
+}
+.slick-thumb li.slick-active button .progress-wrap:before {
+  background-color: #EBCB88;
+  animation: progress 1.5s linear forwards;
+}
+.slick-thumb li.slick-active button span, .slick-thumb li:hover button span {
+  color: #FFFFFF;
+}
+
+@media (max-width: 1023px) {
+  .hero-slider-wrapper .slick-dots {
+    bottom: 18px;
+  }
+  .slick-thumb {
+    margin: 0 -8px;
+  }
+  .slick-thumb li {
+    padding: 0 8px;
+  }
+  .slideItemHidden {
+    display: none !important;
+  }
+}
+
+/* div[data-radix-popper-content-wrapper]:has( > div.dropdownMenuWrap) {
+  width: 100%;
+  transform: translate(0px, 44px) !important;
+} */
+
+.btn:focus-visible, .btn {
+  outline: none !important;
+  box-shadow: none !important;
+}
+/* .dropdownMenuWrapper {
+  display: none;
+}
+.dropdownWrapper:hover .dropdownMenuWrapper {
+  display: block;
+}
+.dropdownWrapper .dropdownLabel {
+  position: relative;
+} */
+.dropdownWrapper .dropdownLabel:after {
+  content: '';
+  background: #EBCB88;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  transition: all 0.2s;
+}
+.dropdownWrapper .dropdownLabel.active:after {
+  height: 3px;
+}
+.transition {
+  transition: all 0.2s;
+}
+.accordion-item button svg {
+  width: 23px;
+  height: 23px;
+  color: #666;
+}
+.collapsibleTrigger[aria-expanded="true"] svg {
+  transform: rotate(180deg);
+}
+
+@media (min-width: 2561px) {
+  .max-w-1280 {
+    max-width: 1280px;
+    margin: auto;
+  }
+  .slick-track {
+    padding-left: 0 !important;
+  }
+  .slider-arrow .slick-arrow.slick-prev {
+    left: auto;
+    right: 50px;
+  }
+  .slider-arrow .slick-arrow.slick-next {
+    right: 13px;
+  }
+}
