@@ -123,8 +123,9 @@ export const HeroBannerList = [
   {
     id: "1",
     tropic: "Testnet",
-    title: "Testnet is now live!    ",
-    description: "OTC Liquidity Management: Unlock 1600+ Trading Pairs",
+    title: "Testnet is now live! ",
+    description:
+      "Experience the power of OTC liquidity management with our testnet, unlocking access to over 1600 trading pairs. Dive into a new era of decentralized trading and explore the vast possibilities that await you.",
     img_url: "/images/Vector (4).png",
     buttonDescription: "Description for Slide 1",
     buttonText: "Try Testnet",
@@ -135,7 +136,7 @@ export const HeroBannerList = [
     title:
       "Unleashing Lightning-Fast Decentralized with Sub 1s Trade Execution",
     description:
-      "Setup to allow scalpers reach speed of light with CEX-like speed on DEX.",
+      "Immerse yourself in the world of lightning-fast decentralized trading with our optimized setup, empowering scalpers to achieve CEX-like speed on DEX platforms. Experience the thrill of executing trades at the speed of light and stay ahead of the game.",
     img_url: "/images/Vector (4).png",
     buttonDescription:
       "Lightning-Fast Decentralized with Sub 1s Trade Execution",
@@ -148,19 +149,18 @@ export const HeroBannerList = [
     title:
       "Best Price Engine : LP Bots Aggregrate Liquidity and Compete for Best Price",
     description:
-      "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea consequatur.",
+      "Witness the power of our Best Price Engine, where LP bots aggregate liquidity and compete fiercely to offer you the most competitive prices. Experience the benefits of a dynamic and efficient market, ensuring you always get the best value for your trades.",
     img_url: "/images/Vector (4).png",
     buttonDescription: "Description for Slide 1",
     link: "/images/Vector (4).png",
     buttonText: "Try Testnet",
   },
-
   {
     id: "4",
     tropic: "Testnet",
     title: "Liquidity Fractionning Solution: Unlock Same Liquidity on 5 Chains",
     description:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "Revolutionize your liquidity management with our groundbreaking Liquidity Fractionning Solution. Unlock the ability to access the same liquidity across 5 different chains simultaneously, opening up a world of opportunities and maximizing your trading potential.",
     img_url: "/images/Vector (4).png",
     buttonDescription: "Description for Slide 1",
     link: "/images/Vector (4).png",
@@ -172,7 +172,7 @@ export const HeroBannerList = [
     title:
       "Execution Privacy : Protect Your Trading Strategies From Front-Runners",
     description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.",
+      "Safeguard your trading strategies and maintain a competitive edge with our robust Execution Privacy features. Shield your trades from front-runners and enjoy peace of mind knowing that your sensitive information is secure and protected.",
     img_url: "/images/Vector (4).png",
     buttonDescription: "Description for Slide 1",
     link: "/images/Vector (4).png",
@@ -184,7 +184,7 @@ export const HeroBannerList = [
     title:
       " PIO Proxy CEX Adapter Kit: Bridging Traditional and Decentralized Markets",
     description:
-      "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
+      "Seamlessly bridge the gap between traditional and decentralized markets with our PIO Proxy CEX Adapter Kit. Unlock a world of trading opportunities and enjoy the best of both worlds, as you effortlessly navigate between centralized and decentralized exchanges.",
     img_url: "/images/Vector (4).png",
     buttonDescription: "Description for Slide 1",
     link: "https://example.com/link1",
