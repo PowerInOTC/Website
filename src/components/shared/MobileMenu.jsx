@@ -164,19 +164,19 @@ export default function MobileMenu({ openMenu, MenuRef }) {
               <AccordionContent className="pt-[10px] px-[30px] bg-[#EEEEEE]">
                 <div className="pt-[15px]">
                   <div className="text-[#1a1a1a] text-[14px] leading-[17px] font-bold pb-[10px] mb-[7px] border-b border-b-[#cccccc]">
-                    Lorem ipsum dolor
+                    Testnet Mobile
                   </div>
                   <Link
                     href={"/"}
                     className="text-[#666] block hover:text-[#1a1a1a] cursor-pointer text-[14px] leading-[22px] py-[7px] px-[0]"
                   >
-                    Lorem ipsum dolor
+                    Testnet Desktop
                   </Link>
                   <Link
                     href={"/"}
                     className="text-[#666] block hover:text-[#1a1a1a] cursor-pointer text-[14px] leading-[22px] py-[7px] px-[0]"
                   >
-                    Lorem ipsum dolor
+                    Join the team
                   </Link>
                 </div>
               </AccordionContent>

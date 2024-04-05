@@ -21,7 +21,7 @@ export default function Recommended() {
   const settings = {
     dots: false,
     infinite: false,
-    speed: 5000,
+    speed: 3000,
     slidesToShow: 5,
     slidesToScroll: 1,
     arrows: true,
@@ -29,7 +29,7 @@ export default function Recommended() {
     nextArrow: <SampleNextArrow onClick={handleNextSlide} />,
     swipeToSlide: true,
     autoplay: false,
-    autoplaySpeed: 10000,
+    autoplaySpeed: 3000,
     pauseOnHover: true,
     responsive: [
       {

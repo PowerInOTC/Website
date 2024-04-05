@@ -6,7 +6,7 @@ import { HeroBannerList } from "./helper";
 export default function HeroBanner() {
   const heroBannerList = HeroBannerList;
   const heroSettings = {
-    pauseOnHover: false,
+    pauseOnHover: true,
     pauseOnFocus: false,
     dots: true,
     dotsClass:
