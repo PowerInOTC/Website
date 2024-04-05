@@ -121,7 +121,7 @@ export default function DataCloudComputing() {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, [sliderLeftPosition]);
+  }, [sliderLeftPosition, sliderRightPosition]);
 
   useEffect(() => {
     const handleSlider = () => {
@@ -247,7 +247,7 @@ export default function DataCloudComputing() {
             <div className="lg:p-[15px] p-[10px] h-full">
               <div className="bg-white rounded-[4px] h-full overflow-hidden">
                 <div className="">
-                  <p className="xl:text-[22px] xl:leading-[35px] lg:text-[18px] lg:leading-[28px] text-[16px] leading-[28px] lg:mb-[30px] mb-[15px]">
+                  <p className="xl:text-[22px] xl:leading-[24px] lg:text-[18px] lg:leading-[28px] text-[16px] leading-[28px] lg:mb-[30px] mb-[15px]">
                     80% of OTC derivatives reside in TradFi, with IRDs
                     dominating the landscape, contrasting sharply with the
                     absence of IRDs in DeFi. America's financial essence lies
@@ -273,51 +273,27 @@ export default function DataCloudComputing() {
                               "text-[#1a1a1a] text-[18px] leading-[22px] font-bold flex items-center hover-btn"
                             }
                           >
-                            Lorem ipsum{" "}
+                            O(1) SIMM{" "}
                             <ChevronRight className="relative top-[1px] ml-[10px]" />
                           </Link>
-                        </li>
-                        <li className="px-[8px] mt-[16px]">
                           <Link
                             href={"/"}
                             className={
                               "text-[#1a1a1a] text-[18px] leading-[22px] font-bold flex items-center hover-btn"
                             }
                           >
-                            Lorem ipsum dolor sit amet{" "}
+                            Netting{" "}
                             <ChevronRight className="relative top-[1px] ml-[10px]" />
                           </Link>
-                        </li>
-                        <li className="px-[8px] mt-[16px]">
                           <Link
-                            href={"/"}
+                            href={
+                              "https://developer.pio.finance/data-room/whitepaper"
+                            }
                             className={
                               "text-[#1a1a1a] text-[18px] leading-[22px] font-bold flex items-center hover-btn"
                             }
                           >
-                            Lorem ipsum dolor{" "}
-                            <ChevronRight className="relative top-[1px] ml-[10px]" />
-                          </Link>
-                        </li>
-                        <li className="px-[8px] mt-[16px]">
-                          <Link
-                            href={"/"}
-                            className={
-                              "text-[#1a1a1a] text-[18px] leading-[22px] font-bold flex items-center hover-btn"
-                            }
-                          >
-                            Lorem ipsum dolor{" "}
-                            <ChevronRight className="relative top-[1px] ml-[10px]" />
-                          </Link>
-                        </li>
-                        <li className="px-[8px] mt-[16px]">
-                          <Link
-                            href={"/"}
-                            className={
-                              "text-[#1a1a1a] text-[18px] leading-[22px] font-bold flex items-center hover-btn"
-                            }
-                          >
-                            Lorem ipsum{" "}
+                            CCP Whitepaper{" "}
                             <ChevronRight className="relative top-[1px] ml-[10px]" />
                           </Link>
                         </li>

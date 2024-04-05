@@ -114,7 +114,7 @@ export default function Recommended() {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, [sliderLeftPosition]);
+  }, [sliderLeftPosition, sliderRightPosition]);
 
   return (
     <div className="bg-[#1a1a1a] lg:py-[56px] py-[40px]">
