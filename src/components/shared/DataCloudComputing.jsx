@@ -152,10 +152,14 @@ export default function DataCloudComputing() {
       </div>
       <div className="my-[30px] md:hidden block px-[15px]">
         <p className="md:text-[22px] md:leading-[35px] text-[16px] leading-[28px] lg:mb-[30px] mb-[15px]">
-          Quisque feugiat semper varius. Aliquam mollis odio a eros elementum,
-          quis pellentesque leo convallis. Nam et quam accumsan, dignissim leo
-          ut, efficitur magna. Nam et quam accumsan, dignissim leo ut, efficitur
-          magna. Nam et quam accumsan, dignissim leo ut, efficitur magna.
+          80% of OTC derivatives reside in TradFi, with IRDs dominating the
+          landscape, contrasting sharply with the absence of IRDs in DeFi.
+          America's financial essence lies not in consumer giants like Apple and
+          Coca-Cola but in the Dollar and IRDs. The economy hinges on IRDs, and
+          a single misstep, akin to the 2008 crisis, carries substantial
+          repercussions. PIO V2 serves as the conduit, seamlessly transplanting
+          TradFi's robust IRD risk infrastructure into DeFi, enabling the
+          integration of IRDs into decentralized finance.
         </p>
         <Collapsible>
           <CollapsibleTrigger className="text-[#1a1a1a] md:text-[18px] text-[16px] leading-[22px] font-bold flex items-center collapsibleTrigger">
@@ -244,12 +248,16 @@ export default function DataCloudComputing() {
               <div className="bg-white rounded-[4px] h-full overflow-hidden">
                 <div className="">
                   <p className="xl:text-[22px] xl:leading-[35px] lg:text-[18px] lg:leading-[28px] text-[16px] leading-[28px] lg:mb-[30px] mb-[15px]">
-                    80% in TradFi, but 0% in DeFi of OTC derivatives are
-                    Interest Rates Derivatives ( IRDs ). America is not Apple
-                    and Coca, it is Dollar and IRDs. Economy is boost by IRDs
-                    and one IRD mistake, like in 2008 has big consequences. PIO
-                    V2 is an infrastructure that adapt TradFi IRD hyper
-                    efficient risk infrastructure to allow IRDs in DeFi.
+                    80% of OTC derivatives reside in TradFi, with IRDs
+                    dominating the landscape, contrasting sharply with the
+                    absence of IRDs in DeFi. America's financial essence lies
+                    not in consumer giants like Apple and Coca-Cola but in the
+                    Dollar and IRDs. The economy hinges on IRDs, and a single
+                    misstep, akin to the 2008 crisis, carries substantial
+                    repercussions. PIO V2 serves as the conduit, seamlessly
+                    transplanting TradFi's robust IRD risk infrastructure into
+                    DeFi, enabling the integration of IRDs into decentralized
+                    finance.
                   </p>
                   <Collapsible>
                     <CollapsibleTrigger className="text-[#1a1a1a] text-[18px] leading-[22px] font-bold flex items-center collapsibleTrigger">
