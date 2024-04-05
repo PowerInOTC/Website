@@ -21,8 +21,9 @@ export default function Information() {
                 <Button
                   variant="primary"
                   className="bg-[#1a1a1a] text-[#FFFFFF] rounded-[0] ml-[10px] text-[12px] px-[12px] py-[6px] h-[auto] hover:opacity-[0.8]"
+                  href="mail:contact@pio.finance"
                 >
-                  Join Now
+                  Contact Us
                 </Button>
               </div>
               <Link

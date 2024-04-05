@@ -21,13 +21,16 @@ export default function Recommended() {
   const settings = {
     dots: false,
     infinite: false,
-    speed: 500,
+    speed: 5000,
     slidesToShow: 5,
     slidesToScroll: 1,
     arrows: true,
     prevArrow: <SamplePrevArrow onClick={handlePrevSlide} />,
     nextArrow: <SampleNextArrow onClick={handleNextSlide} />,
     swipeToSlide: true,
+    autoplay: false,
+    autoplaySpeed: 10000,
+    pauseOnHover: true,
     responsive: [
       {
         breakpoint: 2560,
@@ -120,15 +123,9 @@ export default function Recommended() {
         ref={eleLeftPosition}
       >
         <div className="flex items-center justify-between sm:mb-[30px] mb-[15px]">
-          {/*           <h2 className="text-[#ffffff] lg:text-[36px] lg:leading-[46px] sm:text-[28px] sm:leading-[38px] text-[20px] leading-[28px] font-bold flex items-center flex-wrap">Recommended For You <SettingDialog /> </h2>
-           */}
           <h2 className="text-[#ffffff] lg:text-[36px] lg:leading-[46px] sm:text-[28px] sm:leading-[38px] text-[20px] leading-[28px] font-bold flex items-center flex-wrap">
             Explore The Tech{" "}
           </h2>
-          {/* <div className="slider-arrow hidden items-center lg:flex">
-            <button className={`flex items-center justify-center slick-arrow mr-[10px] ${sliderDisabledButton && 'slick-disabled'}`} onClick={handlePrevSlide}><ChevronLeft /></button>
-            <button className={`flex items-center justify-center slick-arrow ${sliderDisabledButton && 'slick-disabled'}`} onClick={handleNextSlide}><ChevronRight /></button>  
-          </div> */}
         </div>
       </div>
       <div className="max-w-1280">
@@ -139,23 +136,25 @@ export default function Recommended() {
         >
           {recommendedList.map((item, index) => (
             <div className="lg:p-[15px] p-[10px] h-full" key={index}>
-              <div className="bg-white rounded-[4px] h-full overflow-hidden cursor-pointer">
-                <div className="h-[169px] w-full overflow-hidden">
-                  <img
-                    src={item.img_url}
-                    alt="img"
-                    className="w-full h-full object-cover"
-                  />
+              <a href={item.link} target="_blank" rel="noopener noreferrer">
+                <div className="bg-white rounded-[4px] h-full overflow-hidden cursor-pointer">
+                  <div className="h-[169px] w-full overflow-hidden">
+                    <img
+                      src={item.img_url}
+                      alt="img"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="p-[15px]">
+                    <p className="text-[11px] leading-[14px] font-bold">
+                      {item.tropic} | {item.type}
+                    </p>
+                    <p className="text-[15px] leading-[18px] font-bold mt-[8px] line-clamp-2">
+                      {item.description}
+                    </p>
+                  </div>
                 </div>
-                <div className="p-[15px]">
-                  <p className="text-[11px] leading-[14px] font-bold">
-                    {item.tropic} | {item.type}
-                  </p>
-                  <p className="text-[15px] leading-[18px] font-bold mt-[8px] line-clamp-2">
-                    {item.description}
-                  </p>
-                </div>
-              </div>
+              </a>
             </div>
           ))}
         </Slider>
