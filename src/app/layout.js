@@ -1,11 +1,11 @@
 import { Ubuntu } from "next/font/google";
 import "./globals.css";
 
-const ubuntu = Ubuntu({ 
+const ubuntu = Ubuntu({
   subsets: ["latin"],
-  display: 'swap',
-  variable: '--font-ubuntu',
-  weight: ["300", "400", "500", "700"]
+  display: "swap",
+  variable: "--font-ubuntu",
+  weight: ["300", "400", "500", "700"],
 });
 
 export const metadata = {

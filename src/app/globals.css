@@ -91,11 +91,14 @@
 .slick-arrow {
   width: 30px;
   height: 30px;
-  background: #EBCB88;
+  background: #ebcb88;
   color: #000;
 }
-.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
-  background: #EBCB88;
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  background: #ebcb88;
   color: #000;
 }
 .slider-arrow .slick-arrow {
@@ -105,7 +108,7 @@
   display: none;
 }
 .slick-arrow.slick-disabled {
-  background: #CCCCCC;
+  background: #cccccc;
   pointer-events: none;
   opacity: 0.8;
 }
@@ -120,13 +123,12 @@
   padding: 0;
   width: 8px;
   height: 8px;
-  background: #EBCB88;
+  background: #ebcb88;
   border-radius: 8px;
   transition: all 0.4s;
 }
 .slider-dots .slick-dots li.slick-active button {
   width: 30px;
-  
 }
 
 .slider-dots .slick-dots {
@@ -136,7 +138,7 @@
 .hover-btn svg {
   transition: all 0.4s;
   left: 0;
-  position: relative;  
+  position: relative;
 }
 .hover-btn:hover svg {
   left: 4px;
@@ -146,7 +148,7 @@
   from {
     width: 0%;
   }
-  
+
   to {
     width: 100%;
   }
@@ -182,7 +184,7 @@
   position: relative;
 }
 .slick-thumb li.slick-active button .progress-wrap:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -191,11 +193,12 @@
   display: block;
 }
 .slick-thumb li.slick-active button .progress-wrap:before {
-  background-color: #EBCB88;
+  background-color: #ebcb88;
   animation: progress 1.5s linear forwards;
 }
-.slick-thumb li.slick-active button span, .slick-thumb li:hover button span {
-  color: #FFFFFF;
+.slick-thumb li.slick-active button span,
+.slick-thumb li:hover button span {
+  color: #ffffff;
 }
 
 @media (max-width: 1023px) {
@@ -218,7 +221,8 @@
   transform: translate(0px, 44px) !important;
 } */
 
-.btn:focus-visible, .btn {
+.btn:focus-visible,
+.btn {
   outline: none !important;
   box-shadow: none !important;
 }
@@ -232,8 +236,8 @@
   position: relative;
 } */
 .dropdownWrapper .dropdownLabel:after {
-  content: '';
-  background: #EBCB88;
+  content: "";
+  background: #ebcb88;
   position: absolute;
   bottom: 0;
   left: 0;
