@@ -16,9 +16,9 @@ export default function Join() {
             V1 OTC Proxy Transform Derivatives CeFi into DeFi
           </h2>
           <div className="text-[#1A1A1A] md:mt-[15px] mt-[10px] lg:text-[22px] lg:leading-[32px] text-[16px] leading-[22px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id
-            semper felis. Duis sodales, sem in blandit cursus, ligula dui
-            pretium justo, euismod tincidunt diam justo a lorem.{" "}
+            Experience decentralized derivatives with CeFi UX, 1600 Liquid
+            Pairs, sub 1 second execution time, up to 500x leverage and self
+            custodial.{" "}
             <Button
               variant="link"
               className="text-[#1A1A1A] h-auto p-[0] font-bold lg:text-[22px] lg:leading-[32px] text-[16px] leading-[22px] inline-flex items-center hover:no-underline hover-btn"

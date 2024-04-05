@@ -65,8 +65,11 @@ export const DataCloudComputingList = [
     type: "Research",
     title: "O(1) SIMM : A Game-Changer for DeFi Risk Management",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel nulla et tortor laoreet varius. Proin iaculis hendrerit semper. Curabitur laoreet est id efficitur consectetur.",
+      "Discover how our groundbreaking O(1) SIMM technology revolutionizes risk management in the DeFi space. With its unparalleled efficiency and speed, it enables real-time risk assessment and mitigation, ensuring the stability and security of your investments.",
     img_url: "/images/isda-simm.b3e19c48.png",
+    buttonDescription:
+      "Revolutionize DeFi risk management with our O(1) SIMM technology for real-time assessment and mitigation.",
+    buttonText: "Explore O(1) SIMM",
   },
   {
     id: "2",
@@ -74,9 +77,12 @@ export const DataCloudComputingList = [
     type: "Research",
     title: "Unveiling the Potential of Netting in DeFi",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel nulla et tortor laoreet varius. Proin iaculis hendrerit semper. Curabitur laoreet est id efficitur consectetur.",
+      "Dive into the untapped potential of netting in the DeFi ecosystem. Our comprehensive research explores how netting can optimize capital efficiency, reduce transaction costs, and enhance liquidity across various DeFi protocols, opening up new opportunities for investors and traders alike.",
     img_url:
       "https://www.nvidia.com/en-in/home/_jcr_content/root/responsivegrid/Copy%20of%20Copy%20of%20nv_carousel_10568374/nv_teaser_copy_2006776514.coreimg.100.410.jpeg/1710782351593/grace-nvl72-1920x1080.jpeg",
+    buttonDescription:
+      "Explore the untapped potential of netting in DeFi for optimized capital efficiency and enhanced liquidity.",
+    buttonText: "Discover Netting",
   },
   {
     id: "3",
@@ -84,18 +90,25 @@ export const DataCloudComputingList = [
     type: "Research",
     title: "Bridging the DeFi IRDs Gap",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel nulla et tortor laoreet varius.",
+      "Uncover the missing piece in the DeFi puzzle - Interest Rate Derivatives (IRDs). Our research delves into the current landscape of IRDs in DeFi, identifying the challenges and proposing innovative solutions to bridge the gap. Learn how IRDs can unlock new risk management strategies and expand the DeFi market.",
     img_url:
       "https://www.nvidia.com/en-in/home/_jcr_content/root/responsivegrid/Copy%20of%20Copy%20of%20nv_carousel_10568374/item_1678851189000.coreimg.100.410.jpeg/1710755765457/nvidia-dgx-b200-sfg-2560x1440.jpeg",
+    buttonDescription:
+      "Discover how Interest Rate Derivatives can unlock new risk management strategies and expand the DeFi market.",
+    buttonText: "Explore DeFi IRDs",
   },
   {
     id: "4",
-    tropic: "Data Center",
+    tropic: "Infrastructure",
     type: "Research",
-    title: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Decentralized Central Counterparty Factory",
+    description:
+      "Discover the revolutionary concept of a Decentralized Central Counterparty (CCP) Factory. Our research delves into how a decentralized CCP can mitigate counterparty risk, enhance transparency, and streamline post-trade processes in the DeFi ecosystem. Learn how this innovative infrastructure can transform the way financial transactions are conducted and pave the way for a more efficient and secure DeFi landscape.",
     img_url:
       "https://www.nvidia.com/en-in/home/_jcr_content/root/responsivegrid/Copy%20of%20Copy%20of%20nv_carousel_10568374/item_1670311306068.coreimg.100.410.jpeg/1694423413724/nvidia-gh200-grace-hopper.jpeg",
+    buttonDescription:
+      "Explore how a Decentralized Central Counterparty Factory can revolutionize risk management and efficiency in DeFi.",
+    buttonText: "Discover Decentralized CCP",
   },
   {
     id: "5",
@@ -103,9 +116,12 @@ export const DataCloudComputingList = [
     type: "Research",
     title: "Derivatives Portfolio Back Stablecoins",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel nulla et tortor laoreet varius. Proin iaculis hendrerit semper. Curabitur laoreet est id efficitur consectetur.",
+      "Explore the innovative concept of derivatives portfolio-backed stablecoins in the DeFi ecosystem. Our research examines how these stablecoins can provide enhanced stability, liquidity, and flexibility compared to traditional collateralized stablecoins, opening up new avenues for DeFi users and investors.",
     img_url:
       "https://www.nvidia.com/en-in/home/_jcr_content/root/responsivegrid/Copy%20of%20Copy%20of%20nv_carousel_10568374/item_1669211939673.coreimg.100.410.jpeg/1707200512709/dgx-h100-pod-ari.jpeg",
+    buttonDescription:
+      "Discover the potential of derivatives portfolio-backed stablecoins for enhanced stability and liquidity in DeFi.",
+    buttonText: "Explore Stablecoins",
   },
   {
     id: "6",
@@ -113,9 +129,12 @@ export const DataCloudComputingList = [
     type: "Research",
     title: "ms speed with state channels",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel nulla et tortor laoreet varius.",
+      "Experience lightning-fast transaction speeds with state channels in DeFi. Our research explores how state channels can enable near-instant, low-cost transactions, empowering users to seamlessly interact with DeFi protocols and unleash the full potential of decentralized finance.",
     img_url:
       "https://www.nvidia.com/en-in/home/_jcr_content/root/responsivegrid/Copy%20of%20Copy%20of%20nv_carousel_10568374/Copy%20of%20nv_teaser_copy_copy.coreimg.100.410.jpeg/1690577862252/ax800-ari.jpeg",
+    buttonDescription:
+      "Discover how state channels enable lightning-fast, low-cost transactions in DeFi.",
+    buttonText: "Explore State Channels",
   },
 ];
 
@@ -127,8 +146,9 @@ export const HeroBannerList = [
     description:
       "Experience the power of OTC liquidity management with our testnet, unlocking access to over 1600 trading pairs. Dive into a new era of decentralized trading and explore the vast possibilities that await you.",
     img_url: "/images/Vector (4).png",
-    buttonDescription: "Description for Slide 1",
-    buttonText: "Try Testnet",
+    buttonDescription:
+      "Unlock 1600+ trading pairs and experience the future of decentralized trading with our live testnet.",
+    buttonText: "Explore Testnet",
   },
   {
     id: "2",
@@ -139,9 +159,9 @@ export const HeroBannerList = [
       "Immerse yourself in the world of lightning-fast decentralized trading with our optimized setup, empowering scalpers to achieve CEX-like speed on DEX platforms. Experience the thrill of executing trades at the speed of light and stay ahead of the game.",
     img_url: "/images/Vector (4).png",
     buttonDescription:
-      "Lightning-Fast Decentralized with Sub 1s Trade Execution",
+      "Achieve CEX-like speed on DEX platforms with our optimized setup for lightning-fast trade execution.",
     link: "https://example.com/link1",
-    buttonText: "Try Execution Speed",
+    buttonText: "Accelerate Trading",
   },
   {
     id: "3",
@@ -151,9 +171,10 @@ export const HeroBannerList = [
     description:
       "Witness the power of our Best Price Engine, where LP bots aggregate liquidity and compete fiercely to offer you the most competitive prices. Experience the benefits of a dynamic and efficient market, ensuring you always get the best value for your trades.",
     img_url: "/images/Vector (4).png",
-    buttonDescription: "Description for Slide 1",
+    buttonDescription:
+      "Get the most competitive prices with our Best Price Engine powered by LP bots.",
     link: "/images/Vector (4).png",
-    buttonText: "Try Testnet",
+    buttonText: "Discover Best Prices",
   },
   {
     id: "4",
@@ -162,9 +183,10 @@ export const HeroBannerList = [
     description:
       "Revolutionize your liquidity management with our groundbreaking Liquidity Fractionning Solution. Unlock the ability to access the same liquidity across 5 different chains simultaneously, opening up a world of opportunities and maximizing your trading potential.",
     img_url: "/images/Vector (4).png",
-    buttonDescription: "Description for Slide 1",
+    buttonDescription:
+      "Maximize your trading potential by accessing the same liquidity across 5 chains simultaneously.",
     link: "/images/Vector (4).png",
-    buttonText: "Button 1 Text",
+    buttonText: "Unlock Liquidity",
   },
   {
     id: "5",
@@ -174,9 +196,10 @@ export const HeroBannerList = [
     description:
       "Safeguard your trading strategies and maintain a competitive edge with our robust Execution Privacy features. Shield your trades from front-runners and enjoy peace of mind knowing that your sensitive information is secure and protected.",
     img_url: "/images/Vector (4).png",
-    buttonDescription: "Description for Slide 1",
+    buttonDescription:
+      "Protect your trading strategies from front-runners with our robust Execution Privacy features.",
     link: "/images/Vector (4).png",
-    buttonText: "Button 1 Text",
+    buttonText: "Secure Your Trades",
   },
   {
     id: "6",
@@ -186,8 +209,9 @@ export const HeroBannerList = [
     description:
       "Seamlessly bridge the gap between traditional and decentralized markets with our PIO Proxy CEX Adapter Kit. Unlock a world of trading opportunities and enjoy the best of both worlds, as you effortlessly navigate between centralized and decentralized exchanges.",
     img_url: "/images/Vector (4).png",
-    buttonDescription: "Description for Slide 1",
+    buttonDescription:
+      "Bridge the gap between traditional and decentralized markets with our PIO Proxy CEX Adapter Kit.",
     link: "https://example.com/link1",
-    buttonText: "Read More",
+    buttonText: "Explore Adapter Kit",
   },
 ];
