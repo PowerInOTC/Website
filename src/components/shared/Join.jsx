@@ -9,6 +9,7 @@ export default function Join() {
           <div className="md:absolute top-0 left-0 md:w-[110px] md:h-[110px] w-[70px] h-[70px] md:mb-[0] mb-[30px]">
             <img
               src={`/images/Frame 1171275918.png`}
+              alt="PIO"
               className="w-full h-full object-cover"
             />
           </div>

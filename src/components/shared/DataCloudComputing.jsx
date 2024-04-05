@@ -8,6 +8,7 @@ import {
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function DataCloudComputing() {
   const sliderRef = useRef(null);
@@ -154,12 +155,12 @@ export default function DataCloudComputing() {
         <p className="md:text-[22px] md:leading-[35px] text-[16px] leading-[28px] lg:mb-[30px] mb-[15px]">
           80% of OTC derivatives reside in TradFi, with IRDs dominating the
           landscape, contrasting sharply with the absence of IRDs in DeFi.
-          America's financial essence lies not in consumer giants like Apple and
-          Coca-Cola but in the Dollar and IRDs. The economy hinges on IRDs, and
-          a single misstep, akin to the 2008 crisis, carries substantial
-          repercussions. PIO V2 serves as the conduit, seamlessly transplanting
-          TradFi's robust IRD risk infrastructure into DeFi, enabling the
-          integration of IRDs into decentralized finance.
+          America&apos;s financial essence lies not in consumer giants like
+          Apple and Coca-Cola but in the Dollar and IRDs. The economy hinges on
+          IRDs, and a single misstep, akin to the 2008 crisis, carries
+          substantial repercussions. PIO V2 serves as the conduit, seamlessly
+          transplanting TradFi&apos;s robust IRD risk infrastructure into DeFi,
+          enabling the integration of IRDs into decentralized finance.
         </p>
         <Collapsible>
           <CollapsibleTrigger className="text-[#1a1a1a] md:text-[18px] text-[16px] leading-[22px] font-bold flex items-center collapsibleTrigger">
@@ -247,17 +248,17 @@ export default function DataCloudComputing() {
             <div className="lg:p-[15px] p-[10px] h-full">
               <div className="bg-white rounded-[4px] h-full overflow-hidden">
                 <div className="">
-                  <p className="xl:text-[22px] xl:leading-[24px] lg:text-[18px] lg:leading-[28px] text-[16px] leading-[28px] lg:mb-[30px] mb-[15px]">
+                  <p className="xl:text-[20px] xl:leading-[24px] lg:text-[18px] lg:leading-[28px] text-[16px] leading-[28px] lg:mb-[30px] mb-[15px]">
                     80% of OTC derivatives reside in TradFi, with IRDs
                     dominating the landscape, contrasting sharply with the
-                    absence of IRDs in DeFi. America's financial essence lies
-                    not in consumer giants like Apple and Coca-Cola but in the
-                    Dollar and IRDs. The economy hinges on IRDs, and a single
-                    misstep, akin to the 2008 crisis, carries substantial
+                    absence of IRDs in DeFi. America&apos;s financial essence
+                    lies not in consumer giants like Apple and Coca-Cola but in
+                    the Dollar and IRDs. The economy hinges on IRDs, and a
+                    single misstep, akin to the 2008 crisis, carries substantial
                     repercussions. PIO V2 serves as the conduit, seamlessly
-                    transplanting TradFi's robust IRD risk infrastructure into
-                    DeFi, enabling the integration of IRDs into decentralized
-                    finance.
+                    transplanting TradFi&apos;s robust IRD risk infrastructure
+                    into DeFi, enabling the integration of IRDs into
+                    decentralized finance.
                   </p>
                   <Collapsible>
                     <CollapsibleTrigger className="text-[#1a1a1a] text-[18px] leading-[22px] font-bold flex items-center collapsibleTrigger">
@@ -311,6 +312,8 @@ export default function DataCloudComputing() {
                       src={item.img_url}
                       alt="img"
                       className="w-full h-full object-cover"
+                      width={500}
+                      height={500}
                     />
                   </div>
                   <div className="p-[20px]">

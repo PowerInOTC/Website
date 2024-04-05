@@ -78,8 +78,7 @@ export const DataCloudComputingList = [
     title: "Unveiling the Potential of Netting in DeFi",
     description:
       "Dive into the untapped potential of netting in the DeFi ecosystem. Our comprehensive research explores how netting can optimize capital efficiency, reduce transaction costs, and enhance liquidity across various DeFi protocols, opening up new opportunities for investors and traders alike.",
-    img_url:
-      "https://www.nvidia.com/en-in/home/_jcr_content/root/responsivegrid/Copy%20of%20Copy%20of%20nv_carousel_10568374/nv_teaser_copy_2006776514.coreimg.100.410.jpeg/1710782351593/grace-nvl72-1920x1080.jpeg",
+    img_url: "/images/Vector (4).png",
     buttonDescription:
       "Explore the untapped potential of netting in DeFi for optimized capital efficiency and enhanced liquidity.",
     buttonText: "Discover Netting",
@@ -91,8 +90,7 @@ export const DataCloudComputingList = [
     title: "Bridging the DeFi IRDs Gap",
     description:
       "Uncover the missing piece in the DeFi puzzle - Interest Rate Derivatives (IRDs). Our research delves into the current landscape of IRDs in DeFi, identifying the challenges and proposing innovative solutions to bridge the gap. Learn how IRDs can unlock new risk management strategies and expand the DeFi market.",
-    img_url:
-      "https://www.nvidia.com/en-in/home/_jcr_content/root/responsivegrid/Copy%20of%20Copy%20of%20nv_carousel_10568374/item_1678851189000.coreimg.100.410.jpeg/1710755765457/nvidia-dgx-b200-sfg-2560x1440.jpeg",
+    img_url: "/images/Vector (4).png",
     buttonDescription:
       "Discover how Interest Rate Derivatives can unlock new risk management strategies and expand the DeFi market.",
     buttonText: "Explore DeFi IRDs",
@@ -104,8 +102,7 @@ export const DataCloudComputingList = [
     title: "Decentralized Central Counterparty Factory",
     description:
       "Discover the revolutionary concept of a Decentralized Central Counterparty (CCP) Factory. Our research delves into how a decentralized CCP can mitigate counterparty risk, enhance transparency, and streamline post-trade processes in the DeFi ecosystem. Learn how this innovative infrastructure can transform the way financial transactions are conducted and pave the way for a more efficient and secure DeFi landscape.",
-    img_url:
-      "https://www.nvidia.com/en-in/home/_jcr_content/root/responsivegrid/Copy%20of%20Copy%20of%20nv_carousel_10568374/item_1670311306068.coreimg.100.410.jpeg/1694423413724/nvidia-gh200-grace-hopper.jpeg",
+    img_url: "/images/Vector (4).png",
     buttonDescription:
       "Explore how a Decentralized Central Counterparty Factory can revolutionize risk management and efficiency in DeFi.",
     buttonText: "Discover Decentralized CCP",
@@ -117,8 +114,7 @@ export const DataCloudComputingList = [
     title: "Derivatives Portfolio Back Stablecoins",
     description:
       "Explore the innovative concept of derivatives portfolio-backed stablecoins in the DeFi ecosystem. Our research examines how these stablecoins can provide enhanced stability, liquidity, and flexibility compared to traditional collateralized stablecoins, opening up new avenues for DeFi users and investors.",
-    img_url:
-      "https://www.nvidia.com/en-in/home/_jcr_content/root/responsivegrid/Copy%20of%20Copy%20of%20nv_carousel_10568374/item_1669211939673.coreimg.100.410.jpeg/1707200512709/dgx-h100-pod-ari.jpeg",
+    img_url: "/images/Vector (4).png",
     buttonDescription:
       "Discover the potential of derivatives portfolio-backed stablecoins for enhanced stability and liquidity in DeFi.",
     buttonText: "Explore Stablecoins",
@@ -130,8 +126,7 @@ export const DataCloudComputingList = [
     title: "ms speed with state channels",
     description:
       "Experience lightning-fast transaction speeds with state channels in DeFi. Our research explores how state channels can enable near-instant, low-cost transactions, empowering users to seamlessly interact with DeFi protocols and unleash the full potential of decentralized finance.",
-    img_url:
-      "https://www.nvidia.com/en-in/home/_jcr_content/root/responsivegrid/Copy%20of%20Copy%20of%20nv_carousel_10568374/Copy%20of%20nv_teaser_copy_copy.coreimg.100.410.jpeg/1690577862252/ax800-ari.jpeg",
+    img_url: "/images/Vector (4).png",
     buttonDescription:
       "Discover how state channels enable lightning-fast, low-cost transactions in DeFi.",
     buttonText: "Explore State Channels",
