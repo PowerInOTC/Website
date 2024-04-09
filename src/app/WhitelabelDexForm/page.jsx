@@ -1,8 +1,8 @@
 import { run } from "@tripetto/runner-autoscroll";
 import { Services } from "@tripetto/studio";
-import Header from "../components/shared/Header";
-import Footer from "../components/shared/Footer";
-import FooterUp from "../components/shared/FooterUp";
+import Header from "../../components/shared/Header";
+import Footer from "../../components/shared/Footer";
+import FooterUp from "../../components/shared/FooterUp";
 
 export default function WhitelabelDexForm() {
   return (
