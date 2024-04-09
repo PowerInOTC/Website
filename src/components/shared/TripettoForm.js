@@ -26,4 +26,4 @@ const TripettoForm = () => {
   );
 };
 
-export default TripettoForm;
+export { TripettoForm };
