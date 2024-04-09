@@ -40,7 +40,10 @@ export default function FooterUp() {
             <hr className="border-[#EBCB88] mb-4" />
             <ul className="space-y-2 text-[14px]">
               <li>
-                <Link href="/" className="text-[#EBCB88]">
+                <Link
+                  href="https://tripetto.app/run/RTOOTZYNR6"
+                  className="text-[#EBCB88]"
+                >
                   Deploy your own Trading Plateforme
                 </Link>
               </li>
