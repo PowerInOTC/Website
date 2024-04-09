@@ -98,6 +98,9 @@ dependencies:
   '@tripetto/runner-autoscroll':
     specifier: ^9.0.0
     version: 9.0.0(@tripetto/runner@8.1.0)(@types/react@18.2.75)(react-dom@18.2.0)(react@18.2.0)(tslib@2.6.2)
+  '@tripetto/runner-chat':
+    specifier: ^7.0.0
+    version: 7.0.0(@tripetto/runner@8.1.0)(@types/react@18.2.75)(react-dom@18.2.0)(react@18.2.0)(tslib@2.6.2)
   '@tripetto/studio':
     specifier: ^4.0.1
     version: 4.0.1
@@ -1652,6 +1655,25 @@ packages:
 
   /@tripetto/runner-autoscroll@9.0.0(@tripetto/runner@8.1.0)(@types/react@18.2.75)(react-dom@18.2.0)(react@18.2.0)(tslib@2.6.2):
     resolution: {integrity: sha512-whTX8oHoBMfvq69KVcIoaWRGd7P3noYO/3OTAEX6zAZqURD0qi7mR7HyErEfh8EasC6Nm9GEbimtMYMDUGesnw==}
+    peerDependencies:
+      '@tripetto/runner': '>= 8.x'
+      '@types/react': '>= 16.x'
+      react: '>= 16.14.x'
+      react-dom: '>= 16.x'
+    dependencies:
+      '@tripetto/runner': 8.1.0
+      '@tripetto/runner-fabric': 8.0.16(@tripetto/runner@8.1.0)(react@18.2.0)(styled-components@6.1.8)(tslib@2.6.2)
+      '@tripetto/runner-react-hook': 5.0.2(@tripetto/runner@8.1.0)(react@18.2.0)(tslib@2.6.2)
+      '@types/react': 18.2.75
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      styled-components: 6.1.8(react-dom@18.2.0)(react@18.2.0)
+    transitivePeerDependencies:
+      - tslib
+    dev: false
+
+  /@tripetto/runner-chat@7.0.0(@tripetto/runner@8.1.0)(@types/react@18.2.75)(react-dom@18.2.0)(react@18.2.0)(tslib@2.6.2):
+    resolution: {integrity: sha512-9vQtJc4xcy7ikz/dwkmwUaokr8Z28OsrFu1Z3yD0z0RIZR1BM+QnHZ4k4GR4IxYc/njvC1vhQdrOtTmk5nXGSA==}
     peerDependencies:
       '@tripetto/runner': '>= 8.x'
       '@types/react': '>= 16.x'
