@@ -70,6 +70,7 @@ export const DataCloudComputingList = [
     buttonDescription:
       "Revolutionize DeFi risk management with our O(1) SIMM technology for real-time assessment and mitigation.",
     buttonText: "Explore O(1) SIMM",
+    link: "https://developer.pio.finance/v2/o-1-simm",
   },
   {
     id: "2",
@@ -82,6 +83,7 @@ export const DataCloudComputingList = [
     buttonDescription:
       "Explore the untapped potential of netting in DeFi for optimized capital efficiency and enhanced liquidity.",
     buttonText: "Discover Netting",
+    link: "https://developer.pio.finance/v2/netting-potential",
   },
   {
     id: "3",
@@ -94,6 +96,7 @@ export const DataCloudComputingList = [
     buttonDescription:
       "Discover how Interest Rate Derivatives can unlock new risk management strategies and expand the DeFi market.",
     buttonText: "Explore DeFi IRDs",
+    link: "https://developer.pio.finance/v2/bridging-the-irds-gap",
   },
   {
     id: "4",
@@ -106,6 +109,7 @@ export const DataCloudComputingList = [
     buttonDescription:
       "Explore how a Decentralized Central Counterparty Factory can revolutionize risk management and efficiency in DeFi.",
     buttonText: "Discover Decentralized CCP",
+    link: "https://developer.pio.finance/v2/onchain-ccp",
   },
   {
     id: "5",
@@ -118,6 +122,7 @@ export const DataCloudComputingList = [
     buttonDescription:
       "Discover the potential of derivatives portfolio-backed stablecoins for enhanced stability and liquidity in DeFi.",
     buttonText: "Explore Stablecoins",
+    link: "https://developer.pio.finance/v2/portfolio-as-collateral",
   },
   {
     id: "6",
@@ -130,6 +135,7 @@ export const DataCloudComputingList = [
     buttonDescription:
       "Discover how state channels enable lightning-fast, low-cost transactions in DeFi.",
     buttonText: "Explore State Channels",
+    link: "https://developer.pio.finance/v2/scaling-with-state-channels",
   },
 ];
 
@@ -143,6 +149,7 @@ export const HeroBannerList = [
     img_url: "/images/Vector (4).png",
     buttonDescription:
       "Unlock 1600+ trading pairs and experience the future of decentralized trading with our live testnet.",
+    link: "/",
     buttonText: "Explore Testnet",
   },
   {

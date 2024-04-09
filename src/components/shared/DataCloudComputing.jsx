@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/collapsible";
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 export default function DataCloudComputing() {
   const sliderRef = useRef(null);
@@ -24,6 +25,10 @@ export default function DataCloudComputing() {
   };
   const handlePrevSlide = () => {
     sliderRef.current.slickPrev();
+  };
+
+  const handleCardClick = (link) => {
+    window.open(link, "_blank", "noopener,noreferrer");
   };
 
   const config = {
@@ -306,7 +311,10 @@ export default function DataCloudComputing() {
             </div>
             {slides.map((item, index) => (
               <div className="lg:p-[15px] p-[10px] h-full" key={index}>
-                <div className="bg-white rounded-[4px] h-full overflow-hidden shadow-[0_0_5px_0_rgba(0,0,0,.3)] cursor-pointer hover:shadow-[0_0_15px_0_rgba(0,0,0,.35)] ease-in duration-300">
+                <div
+                  className="bg-white rounded-[4px] h-full overflow-hidden shadow-[0_0_5px_0_rgba(0,0,0,.3)] cursor-pointer hover:shadow-[0_0_15px_0_rgba(0,0,0,.35)] ease-in duration-300"
+                  onClick={() => handleCardClick(item.link)}
+                >
                   <div className="h-[230px] w-full overflow-hidden">
                     <img
                       src={item.img_url}
@@ -340,7 +348,10 @@ export default function DataCloudComputing() {
             >
               {slides.map((item, index) => (
                 <div className="lg:p-[15px] p-[10px] h-full" key={index}>
-                  <div className="bg-white rounded-[4px] h-full overflow-hidden shadow-[0_0_5px_0_rgba(0,0,0,.3)] cursor-pointer hover:shadow-[0_0_15px_0_rgba(0,0,0,.35)] ease-in duration-300">
+                  <div
+                    className="bg-white rounded-[4px] h-full overflow-hidden shadow-[0_0_5px_0_rgba(0,0,0,.3)] cursor-pointer hover:shadow-[0_0_15px_0_rgba(0,0,0,.35)] ease-in duration-300"
+                    onClick={() => handleCardClick(item.link)}
+                  >
                     <div className="h-[230px] w-full overflow-hidden">
                       <img
                         src={item.img_url}
