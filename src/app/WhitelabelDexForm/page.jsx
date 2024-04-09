@@ -1,3 +1,5 @@
+"use client";
+
 import { run } from "@tripetto/runner-autoscroll";
 import { Services } from "@tripetto/studio";
 import Header from "../../components/shared/Header";
