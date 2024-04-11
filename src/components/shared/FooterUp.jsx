@@ -13,12 +13,12 @@ export default function FooterUp() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Liquidity</h3>
-            <hr className="border-[#EBCB88] mb-4" />
+            <hr className="border-[#ffffff] mb-4" />
             <ul className="space-y-2 text-[14px]">
               <li>
                 <Link
                   href="https://cal.com/powerinotc/15min"
-                  className="text-[#EBCB88]"
+                  className="text-[#FFFFFF]"
                 >
                   Deploy a proxy
                 </Link>
@@ -26,7 +26,7 @@ export default function FooterUp() {
               <li>
                 <Link
                   href="https://cal.com/powerinotc/15min"
-                  className="text-[#EBCB88]"
+                  className="text-[#FFFFFF]"
                 >
                   Join the MM Swarm
                 </Link>
@@ -34,7 +34,7 @@ export default function FooterUp() {
               <li>
                 <Link
                   href="https://github.com/PowerInOTC/Symphony"
-                  className="text-[#EBCB88]"
+                  className="text-[#FFFFFF]"
                 >
                   Retail Runable Bot
                 </Link>
@@ -46,12 +46,12 @@ export default function FooterUp() {
             <h3 className="text-lg font-semibold mb-4 text-white">
               Protocoles & Influencers
             </h3>
-            <hr className="border-[#EBCB88] mb-4" />
+            <hr className="border-[#FFFFFF] mb-4" />
             <ul className="space-y-2 text-[14px]">
               <li>
                 <Link
                   href="https://tripetto.app/run/RTOOTZYNR6"
-                  className="text-[#EBCB88]"
+                  className="text-[#FFFFFF]"
                 >
                   Deploy your own Trading Plateforme
                 </Link>
@@ -59,7 +59,7 @@ export default function FooterUp() {
               <li>
                 <Link
                   href="https://www.pio.finance/presale"
-                  className="text-[#EBCB88]"
+                  className="text-[#FFFFFF]"
                 >
                   Join the Presale
                 </Link>
@@ -67,7 +67,7 @@ export default function FooterUp() {
               <li>
                 <Link
                   href="https://github.com/PowerInOTC/pioner-typescript-sdk"
-                  className="text-[#EBCB88]"
+                  className="text-[#FFFFFF]"
                 >
                   SDK
                 </Link>
@@ -80,12 +80,12 @@ export default function FooterUp() {
               <h3 className="text-lg font-semibold mb-4 text-white">
                 Developpers
               </h3>
-              <hr className="border-[#EBCB88] mb-4" />
+              <hr className="border-[#FFFFFF] mb-4" />
               <ul className="space-y-2 text-[14px]">
                 <li>
                   <Link
                     href="https://developer.pio.finance/"
-                    className="text-[#EBCB88]"
+                    className="text-[#FFFFFF]"
                   >
                     Technical Docs
                   </Link>
@@ -93,7 +93,7 @@ export default function FooterUp() {
                 <li>
                   <Link
                     href="https://cal.com/powerinotc/15min"
-                    className="text-[#EBCB88]"
+                    className="text-[#FFFFFF]"
                   >
                     Deploy a Whitelabel Exchange
                   </Link>
@@ -101,7 +101,7 @@ export default function FooterUp() {
                 <li>
                   <Link
                     href="https://powerinotc.notion.site/Job-Board-2780f935ca334189ad96166115ad6917?pvs=4"
-                    className="text-[#EBCB88]"
+                    className="text-[#FFFFFF]"
                   >
                     Get Pay To Develop Open Source
                   </Link>
