@@ -4,7 +4,7 @@ export const RecommendedList = [
     tropic: "OTC",
     type: "Developers",
     description: "Developpers Integration SDK",
-    img_url: "/images/what-is-an-sdk.png",
+    img_url: "/images/pioSDK.png",
     link: "https://github.com/PowerInOTC/pioner-typescript-sdk",
   },
   {
@@ -20,7 +20,7 @@ export const RecommendedList = [
     tropic: "OTC",
     type: "Product",
     description: "Open Source Modular Onchain Settlement Contracts",
-    img_url: "/images/Frame 1-10.webp",
+    img_url: "/images/pioV1.webp",
     link: "https://github.com/PowerInOTC/PIOv1-Contracts",
   },
   {
@@ -36,7 +36,7 @@ export const RecommendedList = [
     tropic: "OTC",
     type: "Blog",
     description: "Effortless Exchange Creation: Deploy Your Whitelabel DEX",
-    img_url: "/images/forex-white-label.png",
+    img_url: "/images/pioWhitelabel.png",
     link: "https://github.com/PowerInOTC/PIO-DEX-Mobile-Example",
   },
 
@@ -53,7 +53,7 @@ export const RecommendedList = [
     tropic: "OTC",
     type: "News",
     description: " Standardize Price Source POA Proxy Primitive",
-    img_url: "/images/schema_haproxy_archi.png",
+    img_url: "/images/pioV1.png",
     link: "https://github.com/PowerInOTC/PIOProxy",
   },
 ];
@@ -172,7 +172,7 @@ export const HeroBannerList = [
       "Best Price Engine : LP Bots Aggregrate Liquidity and Compete for Best Price",
     description:
       "Witness the power of our Best Price Engine, where LP bots aggregate liquidity and compete fiercely to offer you the most competitive prices. Experience the benefits of a dynamic and efficient market, ensuring you always get the best value for your trades.",
-    img_url: "/images/Vector (4).png",
+    img_url: "/images/pioFire",
     buttonDescription:
       "Get the most competitive prices with our Best Price Engine powered by LP bots.",
     link: "/images/Vector (4).png",
