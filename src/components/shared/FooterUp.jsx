@@ -16,17 +16,26 @@ export default function FooterUp() {
             <hr className="border-[#EBCB88] mb-4" />
             <ul className="space-y-2 text-[14px]">
               <li>
-                <Link href="/" className="text-[#EBCB88]">
+                <Link
+                  href="https://cal.com/powerinotc/15min"
+                  className="text-[#EBCB88]"
+                >
                   Deploy a proxy
                 </Link>
               </li>
               <li>
-                <Link href="/" className="text-[#EBCB88]">
+                <Link
+                  href="https://cal.com/powerinotc/15min"
+                  className="text-[#EBCB88]"
+                >
                   Join the MM Swarm
                 </Link>
               </li>
               <li>
-                <Link href="/" className="text-[#EBCB88]">
+                <Link
+                  href="https://github.com/PowerInOTC/Symphony"
+                  className="text-[#EBCB88]"
+                >
                   Retail Runable Bot
                 </Link>
               </li>
@@ -48,12 +57,18 @@ export default function FooterUp() {
                 </Link>
               </li>
               <li>
-                <Link href="/" className="text-[#EBCB88]">
+                <Link
+                  href="https://www.pio.finance/presale"
+                  className="text-[#EBCB88]"
+                >
                   Join the Presale
                 </Link>
               </li>
               <li>
-                <Link href="/" className="text-[#EBCB88]">
+                <Link
+                  href="https://github.com/PowerInOTC/pioner-typescript-sdk"
+                  className="text-[#EBCB88]"
+                >
                   SDK
                 </Link>
               </li>
@@ -68,17 +83,26 @@ export default function FooterUp() {
               <hr className="border-[#EBCB88] mb-4" />
               <ul className="space-y-2 text-[14px]">
                 <li>
-                  <Link href="/" className="text-[#EBCB88]">
+                  <Link
+                    href="https://developer.pio.finance/"
+                    className="text-[#EBCB88]"
+                  >
                     Technical Docs
                   </Link>
                 </li>
                 <li>
-                  <Link href="/" className="text-[#EBCB88]">
-                    Whitelabel Exchange
+                  <Link
+                    href="https://cal.com/powerinotc/15min"
+                    className="text-[#EBCB88]"
+                  >
+                    Deploy a Whitelabel Exchange
                   </Link>
                 </li>
                 <li>
-                  <Link href="/" className="text-[#EBCB88]">
+                  <Link
+                    href="https://powerinotc.notion.site/Job-Board-2780f935ca334189ad96166115ad6917?pvs=4"
+                    className="text-[#EBCB88]"
+                  >
                     Get Pay To Develop Open Source
                   </Link>
                 </li>
@@ -90,10 +114,14 @@ export default function FooterUp() {
         </div>
         <div className="flex justify-between items-center mt-8">
           <Link
-            href={subscribed ? "/" : "/"}
+            href={
+              subscribed
+                ? "https://discord.gg/GJV2JdZTFc"
+                : "https://discord.gg/GJV2JdZTFc"
+            }
             className="bg-[#EBCB88] text-[#1a1a1a] font-semibold py-1 px-2 hover:bg-[#d9b772] transition-colors duration-300"
           >
-            {subscribed ? "Manage Subscription" : "Sign Up for PIO News"}
+            {subscribed ? "Join Discord" : "Join Discord"}
           </Link>
           <div className="flex items-center space-x-4 text-[12px]">
             <span className="text-[#EBCB88]">Follow PowerInOTC</span>
@@ -103,7 +131,10 @@ export default function FooterUp() {
             >
               <img src="/images/X_icon_2.svg   " alt="X" className="w-6 h-6" />
             </Link>
-            <Link href="/" className="text-[#EBCB88]">
+            <Link
+              href="https://github.com/PowerInOTC"
+              className="text-[#EBCB88]"
+            >
               <img
                 src="/images/104577259-8ea22080-5659-11eb-8efe-43e03c3b490f.png"
                 alt="Github"
