@@ -20,7 +20,7 @@ export const RecommendedList = [
     tropic: "OTC",
     type: "Product",
     description: "Open Source Modular Onchain Settlement Contracts",
-    img_url: "/images/pioV1.webp",
+    img_url: "/images/pioV1.png",
     link: "https://github.com/PowerInOTC/PIOv1-Contracts",
   },
   {
@@ -172,7 +172,7 @@ export const HeroBannerList = [
       "Best Price Engine : LP Bots Aggregrate Liquidity and Compete for Best Price",
     description:
       "Witness the power of our Best Price Engine, where LP bots aggregate liquidity and compete fiercely to offer you the most competitive prices. Experience the benefits of a dynamic and efficient market, ensuring you always get the best value for your trades.",
-    img_url: "/images/pioFire",
+    img_url: "/images/Vector (4).png",
     buttonDescription:
       "Get the most competitive prices with our Best Price Engine powered by LP bots.",
     link: "/images/Vector (4).png",
